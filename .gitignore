@@ -13,3 +13,18 @@ out
 # Pexels download cache
 public/pexels/*
 !public/pexels/.gitkeep
+
+# Local credentials and generated state
+.env.*
+!.env.example
+!.env.*.example
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+node_modules/
+__pycache__/
+.venv/
